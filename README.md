@@ -1,6 +1,8 @@
-# Resume-Template-Latex
-
 \documentclass[a4paper,11pt]{article}
+
+\renewcommand{\rmdefault}{phv} % This will set the font to Helvetica
+\renewcommand{\sfdefault}{phv} % This will set sans-serif to Helvetica
+
 \usepackage{latexsym}
 \usepackage{xcolor}
 \usepackage{float}
@@ -120,9 +122,9 @@
 \vspace{-5.5mm}
 
 \begin{center}
-     \small{\href{https://github.com/MohdArshad12575}{\faGithub \hspace{0.2mm} github} |  \href{https://www.linkedin.com/in/mohd-arshad-726b38286/}{\faLinkedinSquare \hspace{0.2mm} linkedin} |
-     \href{https://www.linkedin.com/in/mohd-arshad-726b38286/}{ \hspace{0.2mm} Portfolio} |
-     \href{mailto:mohdarshad12575@gmail.com}{\faSend \hspace{0.2mm}mohdarshad12575@gmail.com} | \faPhone \hspace{0.2mm} +91-8882615763} |  | {\href{https://www.youtube.com/@Arshad_Data_Analyst}{YT-Channel} 
+     \small{\href{https://github.com/MohdArshad12575}{ \hspace{0.2mm} github} |  \href{https://www.linkedin.com/in/mohd-arshad-726b38286/}{ \hspace{0.2mm} linkedin} |
+     \href{https://arshaddataanalyst.tech/}{ \hspace{0.2mm} Portfolio} |
+     \href{mailto:mohdarshad12575@gmail.com}{\ \hspace{0.2mm}mohdarshad12575@gmail.com} | \ \hspace{0.2mm} +91-8882615763} |   {\href{https://www.youtube.com/@Arshad_Data_Analyst}{YT-Channel} 
 \end{center}
 \vspace{-3mm}
 
@@ -133,19 +135,19 @@
 
 \resumeSubHeadingListStart
 \resumeEdu
-{Jamia Hamdard University} 
+{Jamia Hamdard University - New Delhi, India} 
 {BCA- (Bachelor of Computer Applications)} 
-{NoV 2022 - May 2025} %Event Dates
-{\textbf{CGPA: 8.0/10}} %Website
-\vspace{2.5mm}
+{Nov 2022 - May 2025} 
+{\textbf{CGPA: 7.9/10}} 
+\vspace{4mm}
 
 % \resumeSubHeadingListStart
 
 \resumeEdu
-{PM Shri Kendriya Vidyalaya, Andrews Ganj} 
-{Senior Secondary (Class XII)} 
+{PM Shri Kendriya Vidyalaya, Andrews Ganj - New Delhi, India} 
+{Science PCM - (Class XII)} 
 {Apr 2016 - Mar 2022} %Event Dates
-{\textbf{Percentage: 73.0}} %Website
+{\textbf{First Division}} %Website
 
 \resumeSubHeadingListEnd
 \vspace{-4.5mm}
@@ -161,23 +163,24 @@
 {2 Months}
 {~}
 
-\vspace{-2mm}
+\vspace{1mm}
 \resumeItemListStart
-\item[$\bullet$] Handled daily manpower deployment data across 2–3 cities, submitted by vendors for exam center operations.
+\setlength{\itemsep}{1mm} % Add space between bullet points (adjust this value as needed)
+\item[$\bullet$] Managed daily manpower deployment data across 2–3 cities, submitted by vendors for exam center operations.
 \item[$\bullet$] Created structured Excel reports summarizing guard deployment, attendance, and center-wise status.
-\item[$\bullet$] Cleaned and consolidated vendor data and arrival photos into a single audit-ready file for final reporting.
-\item[$\bullet$] Communicated with vendors to ensure timely and accurate data submissions and photo proofs.
+\item[$\bullet$] Consolidated data and 100+ arrival photos into an audit-ready file for final reporting.
+\item[$\bullet$] Ensured data accuracy by communicating with vendors and resolving submission delays.
 \resumeItemListEnd
 \resumeSubHeadingListEnd
-\vspace{-4.5mm} % Adjust spacing above section
+\vspace{-7mm} % Adjust spacing above section
 %-----------PROJECTS-----------------
 \section{Projects}
 \resumeSubHeadingListStart
 
 \resumeProject
-{\textbf{Olist E-commerce Revenue and Order Analysis} \href{https://github.com/YourGitHubLink}{GitHub} \textbar{} \href{https://www.youtube.com/YourYouTubeLink}{YouTube}}
+{\textbf{Olist E-commerce Revenue and Order Analysis} \textnormal{ (GCS, BigQuery, SQL , Looker Studio)} }
 {}
-{\textbf{}}
+{\href{https://github.com/MohdArshad12575/Olist-Revenue-Order-Analysis-Report}{GitHub} \textbar {\href{https://youtu.be/Dw-GIS4x_ZY?si=r7BiL3t3-f9Z4EpC}{YouTube}}}
 
 \vspace{-2mm} % Reduced space before item list
 \resumeItemListStart
@@ -190,9 +193,10 @@
 \vspace{1mm} % Adjusted space between projects
 
 \resumeProject
-{\textbf{ETL and EDA on Laptop Market Analysis with Feature Engineering} \href{https://github.com/YourGitHubLink}{GitHub} \textbar{} \href{https://www.youtube.com/YourYouTubeLink}{YouTube}}
+{\textbf{ETL and EDA on Laptop Market Analysis with Feature Engineering} \textnormal{ (Advanced SQL)}}
 {}
-{\textbf{}}
+{\href{https://github.com/MohdArshad12575/SQL-Based-ETL-EDA-for-Laptop-Market-Analysis}{GitHub} \textbar {\href{https://youtu.be/6gVogvRGpy0?si=8km3ej1x3gCrVGB-}{YouTube}}}
+
 
 \vspace{-2mm} % Reduced space before item list
 \resumeItemListStart
@@ -205,9 +209,9 @@
 \vspace{1mm} % Adjusted space between projects
 
 \resumeProject
-{\textbf{Road Casualties Analysis and Visualization Dashboard} \href{https://github.com/YourGitHubLink}{GitHub} \textbar{} \href{https://www.youtube.com/YourYouTubeLink}{YouTube}}
+{\textbf{Road Casualties Analysis and Visualization Dashboard} \textnormal{ (Excel, MySQL ,Power BI)}}
 {}
-{\textbf{}}
+{\href{https://github.com/MohdArshad12575/road-safety-insights-excel-sql-powerbi}{GitHub} \textbar {\href{https://www.youtube.com/@Arshad_Data_Analyst}{YouTube}}}
 
 \vspace{-2mm} % Reduced space before item list
 \resumeItemListStart
@@ -219,7 +223,7 @@
 
 \resumeSubHeadingListEnd
 
-\vspace{-8mm} % Adjusted to control the gap before Certifications section
+\vspace{-7mm} % Adjusted to control the gap before Certifications section
 
 
 %-----------SKILLS-----------------
@@ -234,26 +238,22 @@
 \textbf{Soft Skills:} & Report Building, Dashboard Development,  Communication \\
 \end{tabular}
 
-\vspace{-4mm}
+\vspace{-3.5mm}
 
 %-----------Certifications-----------------
 \section{Certifications}
 
-\begin{itemize}[leftmargin=*]
-    \item \textbf{Advanced Excel - Simplilearn} 
-    \begin{itemize}[label=-]
-        \item[$\bullet$] Learned advanced Excel tools: VLOOKUP, HLOOKUP, INDEX-MATCH, Conditional Formatting, Pivots, and Macros.
-        \item[$\bullet$] Applied functions for automation and created reusable templates for reporting.
-    \end{itemize}
-
-    \item \textbf{SQL (Intermediate) - HackerRank} 
-    \begin{itemize}[label=-]
-        \item[$\bullet$] Covered Window Functions, Complex Joins, CASE Statements, subqueries, and aggregations.
-        \item[$\bullet$] Passed a timed practical assessment testing intermediate SQL query skills.
-    \end{itemize}
+\textbf{Advanced Excel – Simplilearn}  
+\begin{itemize}
+    \item[$\bullet$] Gained hands-on experience with Excel formulas (VLOOKUP, INDEX-MATCH), PivotTables, Conditional Formatting, and automation using Macros.
 \end{itemize}
 
+\vspace{-1mm} % Adjust spacing between certs
 
+\textbf{SQL (Intermediate) – HackerRank}  
+\begin{itemize}
+    \item[$\bullet$] Demonstrated proficiency in complex SQL queries including Window Functions, Joins, Subqueries, and Aggregations through a timed assessment.
+\end{itemize}
 
 \end{document}
 
